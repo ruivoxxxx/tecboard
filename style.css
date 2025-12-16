@@ -44,6 +44,9 @@ a {
   border-radius: 36px;
   margin: 40px auto;
 }
+a:hover {
+  background-color: #8233e8;
+}
 section img {
   width: 792px;
   height: 446px;
@@ -68,9 +71,20 @@ section img {
     margin: 32px 0px 0px 16px;
   }
   h1 {
+    font-size: 40px;
   }
   p {
     width: 341px;
-    margin: 0 auto;
+    font-size: 20px;
+  }
+
+  section img {
+    width: 341px;
+    height: 230px;
+  }
+  a {
+    font-size: 20px;
+    width: 251px;
+    height: 66px;
   }
 }
